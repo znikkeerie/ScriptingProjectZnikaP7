@@ -10,12 +10,14 @@ public class ForEachLoops : MonoBehaviour
         string[] strings = new string[3];
 
 
-        
-    }
+        strings[0] = "First string";
+        strings[1] = "Second string";
+        strings[2] = "Third string";
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+
+        foreach (string item in strings)
+        {
+            print(item);
+        }
     }
 }
