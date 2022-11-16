@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AwakeAndStart : MonoBehaviour
 {
-    void awake()
+    void Awake()
     {
         Debug.Log("Awake called.");
     }
